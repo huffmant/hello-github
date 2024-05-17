@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-17T06:57:26.103Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="orCotqom4JYGglyc8Z76" version="24.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-17T06:58:31.672Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="2bpm19yYOxMcB4mQHBl3" version="24.4.3" type="github">
   <diagram name="第 1 页" id="SXsg_J_FmZClzTK5hUYQ">
     <mxGraphModel dx="2021" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,8 +36,14 @@
         <mxCell id="EswXnygDx9Ksin9KotE9-40" value="是否审批通过" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="EswXnygDx9Ksin9KotE9-2">
           <mxGeometry x="145" y="1640" width="130" height="95" as="geometry" />
         </mxCell>
+        <mxCell id="EswXnygDx9Ksin9KotE9-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EswXnygDx9Ksin9KotE9-2" source="EswXnygDx9Ksin9KotE9-42" target="EswXnygDx9Ksin9KotE9-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="EswXnygDx9Ksin9KotE9-42" value="发起退货退款" style="whiteSpace=wrap;html=1;" vertex="1" parent="EswXnygDx9Ksin9KotE9-2">
           <mxGeometry x="135" y="1832.5" width="150" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EswXnygDx9Ksin9KotE9-46" value="推送记账信息到ICS" style="whiteSpace=wrap;html=1;" vertex="1" parent="EswXnygDx9Ksin9KotE9-2">
+          <mxGeometry x="135" y="1990" width="150" height="77.5" as="geometry" />
         </mxCell>
         <mxCell id="EswXnygDx9Ksin9KotE9-3" value="中台" style="swimlane;startSize=20;html=1;" vertex="1" parent="EswXnygDx9Ksin9KotE9-1">
           <mxGeometry x="480" y="20" width="650" height="2210" as="geometry" />
@@ -103,6 +109,9 @@
         <mxCell id="EswXnygDx9Ksin9KotE9-5" value="ICS" style="swimlane;startSize=20;html=1;" vertex="1" parent="EswXnygDx9Ksin9KotE9-1">
           <mxGeometry x="1130" y="20" width="270" height="2210" as="geometry" />
         </mxCell>
+        <mxCell id="EswXnygDx9Ksin9KotE9-49" value="&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;text-only&quot;&gt;RefundByYunPosService&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;text-only&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;white-space: pre; background-color: initial;&quot;&gt;refundByManual&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="EswXnygDx9Ksin9KotE9-5">
+          <mxGeometry x="40" y="1993.75" width="200" height="70" as="geometry" />
+        </mxCell>
         <mxCell id="EswXnygDx9Ksin9KotE9-4" value="SAP" style="swimlane;startSize=20;html=1;" vertex="1" parent="EswXnygDx9Ksin9KotE9-1">
           <mxGeometry x="1400" y="20" width="250" height="2210" as="geometry" />
         </mxCell>
@@ -142,6 +151,11 @@
         <mxCell id="EswXnygDx9Ksin9KotE9-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EswXnygDx9Ksin9KotE9-1" source="EswXnygDx9Ksin9KotE9-42" target="EswXnygDx9Ksin9KotE9-45">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="640" y="1891.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EswXnygDx9Ksin9KotE9-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EswXnygDx9Ksin9KotE9-1" source="EswXnygDx9Ksin9KotE9-46" target="EswXnygDx9Ksin9KotE9-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1202" y="2048.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
