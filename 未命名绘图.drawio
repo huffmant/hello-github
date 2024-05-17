@@ -1,9 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2024-05-17T06:01:08.786Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.4.3" etag="F3LiwAm6vHj6WSSI-f0j" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-17T06:15:49.055Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="b0ozv03w2mf2M2vVlqnE" version="24.4.3" type="github">
   <diagram name="第 1 页" id="SXsg_J_FmZClzTK5hUYQ">
-    <mxGraphModel>
+    <mxGraphModel dx="2021" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EswXnygDx9Ksin9KotE9-1" value="Pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="160" width="1540" height="910" as="geometry">
+            <mxRectangle x="230.00000000000045" y="170" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EswXnygDx9Ksin9KotE9-2" value="POS" style="swimlane;startSize=20;html=1;" vertex="1" parent="EswXnygDx9Ksin9KotE9-1">
+          <mxGeometry y="20" width="430" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="EswXnygDx9Ksin9KotE9-3" value="中台" style="swimlane;startSize=20;html=1;" vertex="1" parent="EswXnygDx9Ksin9KotE9-1">
+          <mxGeometry x="430" y="20" width="450" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="EswXnygDx9Ksin9KotE9-6" value="手工创建议价品退货单&lt;div&gt;(前置条件-议价品订单签收)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(31, 31, 31); font-family: system-ui, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;/refund/bargainOrder/create&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="EswXnygDx9Ksin9KotE9-3">
+          <mxGeometry x="165" y="70" width="195" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EswXnygDx9Ksin9KotE9-5" value="ICS" style="swimlane;startSize=20;html=1;" vertex="1" parent="EswXnygDx9Ksin9KotE9-1">
+          <mxGeometry x="880" y="20" width="410" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="EswXnygDx9Ksin9KotE9-4" value="SAP" style="swimlane;startSize=20;html=1;" vertex="1" parent="EswXnygDx9Ksin9KotE9-1">
+          <mxGeometry x="1290" y="20" width="250" height="890" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
